@@ -1,0 +1,39 @@
+{
+  "title": "ProductDefinition",
+  "bsonType": "object",
+  "required": [
+    "_id",
+    "partitionKey",
+    "name",
+    "iconName",
+    "unitName",
+    "isActive",
+    "creationDate"
+  ],
+  "properties": {
+    "_id": {
+      "bsonType": "objectId"
+    },
+    "partitionKey": {
+      "bsonType": "string"
+    },
+    "name": {
+      "bsonType": "string"
+    },
+    "iconName": {
+      "bsonType": "string"
+    },
+    "unitName": {
+      "bsonType": "string"
+    },
+    "category": {
+      "bsonType": "objectId"
+    },
+    "isActive": {
+      "bsonType": "bool"
+    },
+    "creationDate": {
+      "bsonType": "date"
+    }
+  }
+}

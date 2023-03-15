@@ -1,0 +1,7 @@
+Aplikacja wspierająca filozofię zero waste, której celem jest wspomaganie w świadomym i przemyślanym kupowaniu i zużywaniu jedzenia.
+Aplikacja pozwala:
+* definiować różne produkty w przejrzysty i intuicyjny sposób
+* dodawać produkty do listy i śledzić ich termin przydatności
+* oznaczać produkty jako wykorzystane lub wyrzucone
+* przeglądać listę operacji na produktach
+* tworzyć listę zakupów

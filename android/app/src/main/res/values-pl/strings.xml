@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name_DEV">Moja Lodówka DEV</string>
+    <string name="app_name_TEST_1">Moja Lodówka TEST_1</string>
+    <string name="app_name_TEST_2">Moja Lodówka TEST_2</string>
+    <string name="app_name_TEST_3">Moja Lodówka TEST_3</string>
+    <string name="app_name_PROD">Moja Lodówka</string>
+</resources>

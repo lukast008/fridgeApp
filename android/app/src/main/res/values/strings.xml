@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name_DEV">My Fridge DEV</string>
+    <string name="app_name_TEST_1">My Fridge TEST_1</string>
+    <string name="app_name_TEST_2">My Fridge TEST_2</string>
+    <string name="app_name_TEST_3">My Fridge TEST_3</string>
+    <string name="app_name_PROD">My Fridge</string>
+</resources>

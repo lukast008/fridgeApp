@@ -1,0 +1,7 @@
+{
+  "product": {
+    "ref": "#/relationship/mongodb-atlas/fridge_db/Product",
+    "foreign_key": "_id",
+    "is_list": false
+  }
+}

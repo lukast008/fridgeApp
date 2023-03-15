@@ -1,0 +1,7 @@
+An application supporting the zero waste philosophy, the aim of which is to support conscious and thoughtful buying and consumption of food.
+The application allows:
+* define different products in a clear and intuitive way
+* add products to the list and track their expiration date
+* mark products as used or thrown away
+* view the list of operations on products
+* create a shopping list

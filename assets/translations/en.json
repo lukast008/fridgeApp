@@ -1,0 +1,251 @@
+{
+  "common": {
+    "searchPlaceholder": "Search",
+    "save": "Save",
+    "archive": "Archive",
+    "ok": "OK",
+    "yes": "Yes",
+    "no": "No",
+    "tryAgain": "Try again"
+  },
+  "product": {
+    "header": "My Products",
+    "loadingInfo": "Loading products",
+    "noProductsLine1": "There no products on the list.",
+    "noProductsLine2": "Press button to add.",
+    "groupByCategory": "Group products by category"
+  },
+  "addProduct": {
+    "header": "Add Product",
+    "nameLabel": "Product name",
+    "namePlaceholder": "Insert name",
+    "unitLabel": "Quantity",
+    "expirationDateLabel": "Expiration date",
+    "actionDateLabel": "Addition date",
+    "descriptionLabel": "Description/brand (optional)",
+    "categoryLabel": "Category",
+    "descriptionPlaceholder": "Insert description/brand ..."
+  },
+  "activity": {
+    "header": "Activity",
+    "emptyInfo": "There is no activity for given period and name",
+    "loadingInfo": "Loading..."
+  },
+  "statistics": {
+    "header": "Statistics",
+    "emptyInfo": "There is no activity for given period and name",
+    "loadingInfo": "Loading..."
+  },
+  "shoppingList": {
+    "header": "Shopping List",
+    "emptyInfo": "There is no product on your shopping list",
+    "loadingInfo": "Loading...",
+    "boughTodayLabel": "Bought today",
+    "addProductLabel": "Add product",
+    "enterNamePlaceholder": "Enter name"
+  },
+  "productSummary": {
+    "historyLabel": "History",
+    "statisticsLabel": "Statistics",
+    "loadingHistoryInfo": "Loading history ...",
+    "loadingStatisticsInfo": "Loading statistics ...",
+    "loadingProductsInfo": "Loading products ...",
+    "noProductInfo": "There is no data for the product"
+  },
+  "settings": {
+    "header": "Settings",
+    "version": "version",
+    "connection": {
+      "connected": "connected",
+      "connecting": "connecting",
+      "disconnected": "disconnected"
+    }
+  },
+  "myProfile": {
+    "header": "My Profile",
+    "loginFailed": {
+      "title": "Login Failed",
+      "content": "Invalid email or password"
+    },
+    "signupFailed": "Sign Up failed",
+    "signupSuccess": {
+      "title": "Sign Up successful",
+      "content": "Go to login page"
+    },
+    "copyLocalDataPopup": {
+      "title": "Copy local data",
+      "content": "You have some local data. Do you want to copy it and override current data?"
+    },
+    "email": "Email",
+    "password": "Password",
+    "passwordRepeat": "Repeat password",
+    "login": "Login",
+    "logout": "Logout",
+    "signup": "Sign up",
+    "copyData": "Copy data",
+    "copyFailed": "Cannot copy. User not logged in",
+    "loggedAsInfo": "You are logged as:",
+    "loginInfo": "Login to the app to save data in the cloud",
+    "signupInfo": "Provide email and password",
+    "doNotHaveAccount": "Do not have an account?",
+    "alreadyHaveAccount": "Already have an account?",
+    "emailInvalid": "Invalid email address",
+    "passwordTooShort": "Password too short",
+    "passwordsDoNotMatch": "Passwords do not match"
+  },
+  "userData": {
+    "header": "Data",
+    "export": "Export",
+    "import": "Import",
+    "deleteAll": "Delete all",
+    "loadingData": "Loading data ...",
+    "dataInfo": {
+      "dbVersion": "Database schema version: ",
+      "noCategories": "Number of categories: ",
+      "noProductDefs": "Number of product definitions: ",
+      "noProducts": "Number of product: ",
+      "noActivities": "Number of activities: "
+    },
+    "deleteDataPopup": {
+      "title": "Delete data",
+      "content": "Are you sure you want to delete all data and history?"
+    },
+    "importDataPopup": {
+      "title": "Import data",
+      "content": "Are you sure you want to perform import? It will override existing data"
+    },
+    "exportContent": {
+      "title": "FridgeApp export",
+      "message": "Data from database attached in file"
+    }
+  },
+  "about": {
+    "header": "About app"
+  },
+  "librariesAndIcons": {
+    "header": "Libraries and icons",
+    "icons-info": "Icons are downloaded from: ",
+    "license": "license: ",
+    "version": "version: "
+  },
+  "productsLibrary": {
+    "header": "Products Library",
+    "current-amount": "Current amount: "
+  },
+  "productCategories": {
+    "header": "Categories",
+    "no-category-default": "No category",
+    "confirm-delete": {
+      "title": "Delete Category",
+      "content": "Are you sure you want to delete category {{name}}?"
+    }
+  },
+  "logs": {
+    "header": "Logs",
+    "list-header": "Number of logs: {{n}}",
+    "no-results": "No results to show",
+    "confirm-clear": {
+      "title": "Clear logs",
+      "content": "Are you sure you want to clear all logs?"
+    },
+    "filter": {
+      "title": "Filter logs",
+      "only-current-session-label": "Only current session",
+      "sorting": "Sorting: "
+    },
+    "export": {
+      "title": "FridgeApp - Logs",
+      "message": "Logs from FridgeApp"
+    }
+  },
+  "action": {
+    "add": {
+      "label": "Add",
+      "dateLabel": "Added at",
+      "doneLabel": "added"
+    },
+    "edit": {
+      "label": "Edit",
+      "dateLabel": "Edited at",
+      "doneLabel": "edited"
+    },
+    "delete": {
+      "label": "Delete",
+      "dateLabel": "Deleted at",
+      "doneLabel": "deleted"
+    },
+    "consume": {
+      "label": "Consume",
+      "dateLabel": "Consumed at",
+      "doneLabel": "consumed"
+    },
+    "throwAway": {
+      "label": "Throw away",
+      "dateLabel": "Thrown away at",
+      "doneLabel": "thrown"
+    }
+  },
+  "unit": {
+    "weight": "weight",
+    "volume": "volume",
+    "sum": "Sum",
+    "item": {
+      "name": "item",
+      "nameIf2to4": "items",
+      "nameIf5orMore": "items",
+      "nameIfFraction": "item"
+    },
+    "bottle": {
+      "name": "bottle",
+      "nameIf2to4": "bottles",
+      "nameIf5orMore": "bottles",
+      "nameIfFraction": "bottle"
+    },
+    "package": {
+      "name": "package",
+      "nameIf2to4": "packages",
+      "nameIf5orMore": "packages",
+      "nameIfFraction": "package"
+    },
+    "carton": {
+      "name": "carton",
+      "nameIf2to4": "cartons",
+      "nameIf5orMore": "cartons",
+      "nameIfFraction": "carton"
+    },
+    "can": {
+      "name": "can",
+      "nameIf2to4": "cans",
+      "nameIf5orMore": "cans",
+      "nameIfFraction": "can"
+    },
+    "jar": {
+      "name": "jar",
+      "nameIf2to4": "jars",
+      "nameIf5orMore": "jars",
+      "nameIfFraction": "jar"
+    },
+    "portion": {
+      "name": "portion",
+      "nameIf2to4": "portions",
+      "nameIf5orMore": "portions",
+      "nameIfFraction": "portion"
+    }
+  },
+  "dates": {
+    "3days": "3 days",
+    "day": "Day",
+    "week": "Week",
+    "month": "Month",
+    "year": "Year",
+    "all": "All",
+    "expirationDate": "Expiration date",
+    "noExpirationDate": "No expiration date",
+    "selectDate": "Select a date",
+    "validTo": "Valid to",
+    "added": "Added",
+    "opened": "Opened",
+    "filterRange": "Filter range",
+    "today": "today"
+  }
+}

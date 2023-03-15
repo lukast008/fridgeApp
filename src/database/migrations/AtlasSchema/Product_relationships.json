@@ -1,0 +1,12 @@
+{
+  "definition": {
+    "ref": "#/relationship/mongodb-atlas/fridge_db/ProductDefinition",
+    "foreign_key": "_id",
+    "is_list": false
+  },
+  "parent": {
+    "ref": "#/relationship/mongodb-atlas/fridge_db/Product",
+    "foreign_key": "_id",
+    "is_list": false
+  }
+}

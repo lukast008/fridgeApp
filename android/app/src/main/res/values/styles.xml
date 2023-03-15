@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">#000000</item>
+		    <item name="android:datePickerDialogTheme">@style/DialogDatePicker.Theme</item>
+		    <item name="android:timePickerDialogTheme">@style/DialogDatePicker.Theme</item>
+    </style>
+
+	  <style name="DialogDatePicker.Theme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">#66a3ff</item>
+        <item name="android:textColor">#66a3ff</item>
+        <item name="android:textColorPrimary">#000000</item>
+		    <item name="android:textColorPrimaryInverse">#ffffff</item>
+    </style>
+
+    <!-- Adds the splash screen definition -->
+    <style name="SplashTheme" parent="Theme.AppCompat.Light">
+        <item name="android:background">@drawable/background_splash</item>
+    </style>
+
+</resources>

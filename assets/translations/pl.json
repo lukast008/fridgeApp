@@ -1,0 +1,251 @@
+{
+  "common": {
+    "searchPlaceholder": "Wyszukaj",
+    "save": "Zapisz",
+    "archive": "Archiwizuj",
+    "ok": "OK",
+    "yes": "Tak",
+    "no": "Nie",
+    "tryAgain": "Spróbuj ponownie"
+  },
+  "product": {
+    "header": "Moje Produkty",
+    "loadingInfo": "Wczytuję produkty",
+    "noProductsLine1": "Brak produktów na liście.",
+    "noProductsLine2": "Kliknij aby dodać nowy produkt.",
+    "groupByCategory": "Grupuj produkty wg kategorii"
+  },
+  "addProduct": {
+    "header": "Dodaj Produkt",
+    "nameLabel": "Nazwa produktu",
+    "namePlaceholder": "Wprowadź nazwę",
+    "unitLabel": "Ilość produktu",
+    "expirationDateLabel": "Data przydatności",
+    "actionDateLabel": "Data dodania",
+    "descriptionLabel": "Opis/marka (opcjonalny)",
+    "categoryLabel": "Kategoria",
+    "descriptionPlaceholder": "Wprowadź opis/markę ..."
+  },
+  "activity": {
+    "header": "Aktywność",
+    "emptyInfo": "Brak aktywności spełniającej zadane kryteria",
+    "loadingInfo": "Wczytuję..."
+  },
+  "statistics": {
+    "header": "Statystyki",
+    "emptyInfo": "Brak aktywności spełniającej zadane kryteria",
+    "loadingInfo": "Wczytuję..."
+  },
+  "shoppingList": {
+    "header": "Lista zakupów",
+    "emptyInfo": "Brak produktów na Twojej liście zakupów",
+    "loadingInfo": "Wczytuję...",
+    "boughTodayLabel": "Kupione dzisiaj",
+    "addProductLabel": "Dodaj produkt",
+    "enterNamePlaceholder": "Podaj nazwę"
+  },
+  "productSummary": {
+    "historyLabel": "Historia",
+    "statisticsLabel": "Statystyki",
+    "loadingHistoryInfo": "Wczytuję historię ...",
+    "loadingStatisticsInfo": "Wczytuję statystyki ...",
+    "loadingProductsInfo": "Wczytuję produkty ...",
+    "noProductInfo": "Brak danych o produkcie"
+  },
+  "settings": {
+    "header": "Ustawienia",
+    "version": "wersja",
+    "connection": {
+      "connected": "połączono",
+      "connecting": "łączenie",
+      "disconnected": "brak połączenia"
+    }
+  },
+  "myProfile": {
+    "header": "Mój Profil",
+    "loginFailed": {
+      "title": "Błąd logowania",
+      "content": "Niepoprawny email lub hasło"
+    },
+    "signupSuccess": {
+      "title": "Rejestracja udana!",
+      "content": "Przejdź do strony logowania"
+    },
+    "copyLocalDataPopup": {
+      "title": "Kopiuj dane lokalne",
+      "content": "Masz dane zapisane na urządzeniu. Czy chcesz je skopiować na swoje konto (to nadpisze istniejące dane)?"
+    },
+    "signupFailed": "Błąd rejestracji",
+    "email": "Email",
+    "password": "Hasło",
+    "passwordRepeat": "Powtórz hasło",
+    "login": "Zaloguj się",
+    "logout": "Wyloguj się",
+    "signup": "Zarejestruj się",
+    "copyData": "Kopiuj dane",
+    "copyFailed": "Błąd kopiowania. Użytkownik nie jest zalogowany",
+    "loggedAsInfo": "Jesteś zalogowany jako:",
+    "loginInfo": "Zaloguj się do aplikacji, żeby zapisać dane w chmurze",
+    "signupInfo": "Wprowadź email i hasło",
+    "doNotHaveAccount": "Nie masz konta?",
+    "alreadyHaveAccount": "Masz już konto?",
+    "emailInvalid": "Niepoprawny adres email",
+    "passwordTooShort": "Hasło zbyt krótkie",
+    "passwordsDoNotMatch": "Hasła są różne"
+  },
+  "userData": {
+    "header": "Dane",
+    "export": "Eksportuj",
+    "import": "Importuj",
+    "deleteAll": "Usuń dane",
+    "loadingData": "Wczytuję dane ...",
+    "dataInfo": {
+      "dbVersion": "Wersja schematu bazy danych: ",
+      "noCategories": "Liczba kategorii: ",
+      "noProductDefs": "Liczba definicji produktów: ",
+      "noProducts": "Liczba produktów: ",
+      "noActivities": "Liczba aktywności: "
+    },
+    "deleteDataPopup": {
+      "title": "Usuń dane",
+      "content": "Czy na pewno chcesz nieodwracalnie usunąć wszystkie dane oraz historię?"
+    },
+    "importDataPopup": {
+      "title": "Importuj dane",
+      "content": "Czy na pewno chcesz kontynuować import? To spowoduje nadpisanie istniejących danych."
+    },
+    "exportContent": {
+      "title": "FridgeApp export",
+      "message": "Eksport bazy danych w załączniku"
+    }
+  },
+  "about": {
+    "header": "O aplikacji"
+  },
+  "librariesAndIcons": {
+    "header": "Biblioteki i ikony",
+    "icons-info": "Ikony pochodzą z serwisu: ",
+    "license": "licencja: ",
+    "version": "wersja: "
+  },
+  "productsLibrary": {
+    "header": "Katalog produktów",
+    "current-amount": "Aktualna ilość: "
+  },
+  "productCategories": {
+    "header": "Kategorie",
+    "no-category-default": "Brak kategorii",
+    "confirm-delete": {
+      "title": "Usuń kategorię",
+      "content": "Czy na pewno chcesz usunąć kategorię {{name}}?"
+    }
+  },
+  "logs": {
+    "header": "Logi",
+    "list-header": "Liczba wpisów: {{n}}",
+    "no-results": "Brak wyników do wyświetlenia",
+    "confirm-clear": {
+      "title": "Wyczyść logi",
+      "content": "Czy na pewno chcesz usunąć logi?"
+    },
+    "filter": {
+      "title": "Filtruj logi",
+      "only-current-session-label": "Tylko bieżąca sesja",
+      "sorting": "Sortowanie: "
+    },
+    "export": {
+      "title": "FridgeApp - Logi",
+      "message": "Logi z FridgeApp"
+    }
+  },
+  "action": {
+    "add": {
+      "label": "Dodaj",
+      "dateLabel": "Data dodania",
+      "doneLabel": "dodano"
+    },
+    "edit": {
+      "label": "Edytuj",
+      "dateLabel": "Data edycji",
+      "doneLabel": "edytowano"
+    },
+    "delete": {
+      "label": "Usuń",
+      "dateLabel": "Data usunięcia",
+      "doneLabel": "usunięto"
+    },
+    "consume": {
+      "label": "Wykorzystaj",
+      "dateLabel": "Data wykorzystania",
+      "doneLabel": "wykorzystano"
+    },
+    "throwAway": {
+      "label": "Wyrzuć",
+      "dateLabel": "Data wyrzucenia",
+      "doneLabel": "wyrzucono"
+    }
+  },
+  "unit": {
+    "weight": "waga",
+    "volume": "pojemność",
+    "sum": "Suma",
+    "item": {
+      "name": "sztuka",
+      "nameIf2to4": "sztuki",
+      "nameIf5orMore": "sztuk",
+      "nameIfFraction": "sztuki"
+    },
+    "bottle": {
+      "name": "butelka",
+      "nameIf2to4": "butelki",
+      "nameIf5orMore": "butelek",
+      "nameIfFraction": "butelki"
+    },
+    "package": {
+      "name": "opakowanie",
+      "nameIf2to4": "opakowania",
+      "nameIf5orMore": "opakowań",
+      "nameIfFraction": "opakowania"
+    },
+    "carton": {
+      "name": "karton",
+      "nameIf2to4": "kartony",
+      "nameIf5orMore": "kartonów",
+      "nameIfFraction": "kartonu"
+    },
+    "can": {
+      "name": "puszka",
+      "nameIf2to4": "puszki",
+      "nameIf5orMore": "puszek",
+      "nameIfFraction": "puszki"
+    },
+    "jar": {
+      "name": "słoik",
+      "nameIf2to4": "słoiki",
+      "nameIf5orMore": "słoików",
+      "nameIfFraction": "słoika"
+    },
+    "portion": {
+      "name": "porcja",
+      "nameIf2to4": "porcje",
+      "nameIf5orMore": "porcji",
+      "nameIfFraction": "porcji"
+    }
+  },
+  "dates": {
+    "3days": "3 dni",
+    "day": "Dzień",
+    "week": "Tydzień",
+    "month": "Miesiąc",
+    "year": "Rok",
+    "all": "Wszystkie",
+    "expirationDate": "Data przydatności",
+    "noExpirationDate": "Brak daty przydatności",
+    "selectDate": "Wybierz dzień",
+    "validTo": "Ważny do",
+    "added": "Dodany",
+    "opened": "Otwarty",
+    "filterRange": "Zakres filtrowania",
+    "today": "dzisiaj"
+  }
+}

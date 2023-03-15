@@ -1,0 +1,39 @@
+{
+  "title": "Activity",
+  "bsonType": "object",
+  "required": [
+    "_id",
+    "partitionKey",
+    "actionDate",
+    "actionType",
+    "unitValue",
+    "isActive",
+    "creationDate"
+  ],
+  "properties": {
+    "_id": {
+      "bsonType": "string"
+    },
+    "partitionKey": {
+      "bsonType": "string"
+    },
+    "actionDate": {
+      "bsonType": "date"
+    },
+    "actionType": {
+      "bsonType": "string"
+    },
+    "unitValue": {
+      "bsonType": "double"
+    },
+    "product": {
+      "bsonType": "string"
+    },
+    "creationDate": {
+      "bsonType": "date"
+    },
+    "isActive": {
+      "bsonType": "bool"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "title": "Product",
+  "bsonType": "object",
+  "required": [
+    "_id",
+    "partitionKey",
+    "description",
+    "unitValue",
+    "initialUnitValue",
+    "expirationDate",
+    "isActive",
+    "creationDate"
+  ],
+  "properties": {
+    "_id": {
+      "bsonType": "string"
+    },
+    "partitionKey": {
+      "bsonType": "string"
+    },
+    "description": {
+      "bsonType": "string"
+    },
+    "unitValue": {
+      "bsonType": "double"
+    },
+    "initialUnitValue": {
+      "bsonType": "double"
+    },
+    "massValuePerUnit": {
+      "bsonType": "double"
+    },
+    "expirationDate": {
+      "bsonType": "date"
+    },
+    "isActive": {
+      "bsonType": "bool"
+    },
+    "creationDate": {
+      "bsonType": "date"
+    },
+    "openingDate": {
+      "bsonType": "date"
+    },
+    "definition": {
+      "bsonType": "objectId"
+    }
+  }
+}

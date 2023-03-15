@@ -1,0 +1,50 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:android)
+
+platform :android do
+  desc "Deploy a new test3 version to the Google Play internal and alpha track"
+    lane :deploy_test3_to_test do
+      gradle(task: "clean bundleRelease")
+      upload_to_play_store(package_name: 'org.lukast.fridgeapp.t3', track: 'internal')
+      upload_to_play_store(
+        package_name: 'org.lukast.fridgeapp.t3',
+        track: 'internal',
+        track_promote_to: 'alpha',
+        skip_upload_aab: true,
+        skip_upload_metadata: true,
+        skip_upload_images: true,
+        skip_upload_screenshots: true,
+        skip_upload_changelogs: true
+      )
+    end
+
+  desc "Deploy a new prod version to the Google Play internal and alpha track"
+    lane :deploy_prod_to_test do
+      gradle(task: "clean bundleRelease")
+      upload_to_play_store(package_name: 'org.lukast.fridgeapp.p', track: 'internal')
+      upload_to_play_store(
+        package_name: 'org.lukast.fridgeapp.p',
+        track: 'internal',
+        track_promote_to: 'alpha',
+        skip_upload_aab: true,
+        skip_upload_metadata: true,
+        skip_upload_images: true,
+        skip_upload_screenshots: true,
+        skip_upload_changelogs: true
+      )
+    end
+end
